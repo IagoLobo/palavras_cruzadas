@@ -1,0 +1,25 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Palavras Cruzadas em JavaScript</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript" src="lib/jquery.min.js"></script>
+<script type="text/javascript" src="lib/jquery.hotkeys.js"></script>
+<script type="text/javascript" src="lib/jquery.cookie.js"></script>
+<script type="text/javascript" src="crossword.js"></script>
+<script type="text/javascript">
+  var crossword1;
+  //var crossword2;
+  $(document).ready(function() {
+    crossword1 = new Crossword('container1');
+    crossword1.init('puzzle');
+  });
+</script>
+<meta charset="UTF-8">
+</head>
+<body>
+<div id="container1"></div>
+<br/>
+<div id="container2"></div>
+</body>
+</html>

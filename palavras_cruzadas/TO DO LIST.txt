@@ -1,0 +1,6 @@
+TO DO LIST:
+
+- Fazer o teclado aparecer no celular para permitir interação (CONSIDERAR UTILIZAR TECLADO
+VIRTUAL PRÓPRIO);
+
+- Colocar caracteres especiais dentro dos espaços de letras; (OLHAR this.mapKeyBindings E 90)
